@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo using Serenity and Customer</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b351dc8ca0a1796f1efb81fcc9e48bd1c765a4b0cc325ff606092bc81a1959e4.html">Sign Up Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="c22fc15d845cf944728c84dfa9fc14138ee0185ebdfd4523c0564bcf2eddcbbc.html">A new user at the platform uTest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-03-2022 05:09</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Sign Up Utest Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to sign Up at a page uTest
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">A new user at the platform uTest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e9d81804ba341a0952bac236d4a632621cc97a7a2b575683429a301b262ad4f5.png" title=" Given than brandon wants to sign up at the uTest page" width="1366"/>
+                <img src="e9d81804ba341a0952bac236d4a632621cc97a7a2b575683429a301b262ad4f5.png" title=" Brandon open up" width="1366"/>
+                <img src="e9d81804ba341a0952bac236d4a632621cc97a7a2b575683429a301b262ad4f5.png" title=" Brandon opens the U test page" width="1366"/>
+                <img src="e9d81804ba341a0952bac236d4a632621cc97a7a2b575683429a301b262ad4f5.png" title=" Brandon open up (completed)" width="1366"/>
+                <img src="3841964fd8aaa445e2f9dc3c5da52f9c0246a1aa2f28c49a63c6fd0462359a43.png" title=" Brandon sign up" width="1366"/>
+                <img src="3841964fd8aaa445e2f9dc3c5da52f9c0246a1aa2f28c49a63c6fd0462359a43.png" title=" Brandon clicks on button that shows us the form to sign up" width="1366"/>
+                <img src="3841964fd8aaa445e2f9dc3c5da52f9c0246a1aa2f28c49a63c6fd0462359a43.png" title=" Brandon sign up (completed)" width="1366"/>
+                <img src="f244f63046279c874518e3d5b9044d8e6f2361b6938dbaf141111b4fe6c23072.png" title=" Given than brandon wants to sign up at the uTest page (completed)" width="1366"/>
+                <img src="971fe6522e7d5a7774ce3be348727d9cd0a45f9001c2d472790640b08354c259.png" title=" When fill in the form for registration
+| strFirstName | strLastName | strEmailAddress | strMount | strDay | strYear | strLanguages | strCity | strPostalCode | strCountry | strComputer | strVersion | strLanguage | strMovilDevice | strModel | strOperatingSystem | strPassword | strConfirmPassword |
+| Lizeth | Ortega | linkliz96@gmail.com | January | 7 | 1996 | Spanish | Calarc&aacute; | 632001 | Colombia | Windows | 10 | Spanish | Xiaomi | Redmi 9 | Android 10 | Linkliz0321* | Linkliz0321* |" width="1366"/>
+                <img src="971fe6522e7d5a7774ce3be348727d9cd0a45f9001c2d472790640b08354c259.png" title=" Brandon form one" width="1366"/>
+                <img src="971fe6522e7d5a7774ce3be348727d9cd0a45f9001c2d472790640b08354c259.png" title=" Brandon enters 'Lizeth' into input where do write the name" width="1366"/>
+                <img src="b20004f63998163570e9e1e2d335467b3f2acbf78c4bcea50584b50bdfcb7fe4.png" title=" Brandon enters 'Ortega' into input where do write the last name" width="1366"/>
+                <img src="128832c23936295e2a9dfe4c06c26c829f38a3023415c85c78bc2f2bd011277f.png" title=" Brandon enters 'linkliz96@gmail.com' into input where do write  the email" width="1366"/>
+                <img src="9a616f32bad5c101ce7d50aae2d9cad8bed1757fa3c22d47fc95a44ec1f01c24.png" title=" Brandon select January on input where do write  the birthday month" width="1366"/>
+                <img src="ceebdb6cb11eda3ffa3c5a5f330d956a95e79a76b53c6645be04324ad8b46c93.png" title=" Brandon select 7 on input where do write  the birthday month" width="1366"/>
+                <img src="f294ee7bf67951c5a5c6e846dda68817fa2d763e72536869b538758654a2e363.png" title=" Brandon select 1996 on input where do write  the birthday month" width="1366"/>
+                <img src="4e487ab92345d2055f96bbf6ff498c242161cdde8ed0dcc514cc88820fd03a4c.png" title=" Brandon enters 'Spanish' then hits [ENTER] into input where do write  the different languages" width="1366"/>
+                <img src="1c556bfdc0ab3be3ce9f2f0101417f1be36f924cef71eac316337c713680326b.png" title=" Brandon clicks on button for next step of form sign up" width="1366"/>
+                <img src="1c556bfdc0ab3be3ce9f2f0101417f1be36f924cef71eac316337c713680326b.png" title=" Brandon form one (completed)" width="1366"/>
+                <img src="42847347fffb77f6b6e23adae4bbd6045d3233072f66265b736a98f78d54305f.png" title=" Brandon form two" width="1366"/>
+                <img src="42847347fffb77f6b6e23adae4bbd6045d3233072f66265b736a98f78d54305f.png" title=" Brandon enters 'Calarc&aacute;' into input where do write the name city" width="1366"/>
+                <img src="57b76940398e77396fa2829bb8f77d22f4da25dcd801cf2d47bd4219dacbdacf.png" title=" Brandon enters '632001' into input where do write the postal code" width="1366"/>
+                <img src="4d8003dd85a1db17f336727205ab956fcefe6929ab05008ae5c197765e233ee2.png" title=" Brandon enters 'Colombia' then hits [ENTER] into input where do write the name country" width="1366"/>
+                <img src="a78e20c381fac782fa02aa4709215f9866a151ab917c1345ede6bf5c6acab0c4.png" title=" Brandon clicks on button for next step of form sign up" width="1366"/>
+                <img src="a78e20c381fac782fa02aa4709215f9866a151ab917c1345ede6bf5c6acab0c4.png" title=" Brandon form two (completed)" width="1366"/>
+                <img src="b5b1ae3f5d633bbca1e55ef4e12e2fad5a20b935a0b291315fb3ac6f318a6005.png" title=" Brandon form three" width="1366"/>
+                <img src="b5b1ae3f5d633bbca1e55ef4e12e2fad5a20b935a0b291315fb3ac6f318a6005.png" title=" Brandon clicks on where do we write your movil device brand" width="1366"/>
+                <img src="6cd3f2add6e8167e7b0c0b74360d48f6d5bc1a4a247bac92ce345cb8f7fbcc9e.png" title=" Brandon enters 'Xiaomi' then hits [ENTER] into where do we write your movil device brand" width="1366"/>
+                <img src="5317da8a8e9b8f944c92bd68e2eb392d99d6a9b5798760906150af661a1dcb15.png" title=" Brandon clicks on where do we write your movil device model" width="1366"/>
+                <img src="33868b56e61206b516bfd177c92317dfa3f976c27f9ce9d2172b7889fd307b2c.png" title=" Brandon enters 'Redmi 9' then hits [ENTER] into where do we write your movil device model" width="1366"/>
+                <img src="a9a252fbc408cd995e0cdacbccb8845ab4121d8d374361f7ef24fcefd20d2a73.png" title=" Brandon clicks on where do we write your movil device OS" width="1366"/>
+                <img src="c7cf774b72343ce11ef2eef248e254c5aacb1312f788f2102de137ad05668498.png" title=" Brandon enters 'Android 10' then hits [ENTER] into where do we write your movil device OS" width="1366"/>
+                <img src="f6b99f29ce2d8739616028dfa94d72d456aea7937f6d9e942818be08485913aa.png" title=" Brandon clicks on button for next step of form sign up" width="1366"/>
+                <img src="f6b99f29ce2d8739616028dfa94d72d456aea7937f6d9e942818be08485913aa.png" title=" Brandon form three (completed)" width="1366"/>
+                <img src="699ebdba6b0304ee1c0a7ccf82c2f0903c3fc263ee72432ffa53e5a4af12a1dc.png" title=" Brandon form four" width="1366"/>
+                <img src="699ebdba6b0304ee1c0a7ccf82c2f0903c3fc263ee72432ffa53e5a4af12a1dc.png" title=" Brandon enters 'Linkliz0321*' into input where do write the new password" width="1366"/>
+                <img src="447207e7c9231f4a061ca62efadbb026596689b78bf57ce07250c3397905dd4b.png" title=" Brandon enters 'Linkliz0321*' into input where do write the confirmed password" width="1366"/>
+                <img src="2be2a1e6e2967c0586fdfb4b0cda64e5dd287f4d71483cd134696f29e83def26.png" title=" Brandon clicks on Where you agree to receive information from utest" width="1366"/>
+                <img src="f87e717ea3e828b4b4fcb69d5f6ee4058da0176d0f81087d54176a16c4a9c2bc.png" title=" Brandon clicks on Where you agree to terms of use from utest" width="1366"/>
+                <img src="81c94c5dbed548e1faa96f5c8ace2834e7f4fdf235ae16351d7defb24e460b7e.png" title=" Brandon clicks on Where you agree to politics from utest" width="1366"/>
+                <img src="bb760e759015b52b23924127352d0591bfd5a0a7bf1818e0881f391a596562b6.png" title=" Brandon clicks on Button for finish the sing up form" width="1366"/>
+                <img src="bb760e759015b52b23924127352d0591bfd5a0a7bf1818e0881f391a596562b6.png" title=" Brandon form four (completed)" width="1366"/>
+                <img src="bb760e759015b52b23924127352d0591bfd5a0a7bf1818e0881f391a596562b6.png" title=" When fill in the form for registration
+| strFirstName | strLastName | strEmailAddress | strMount | strDay | strYear | strLanguages | strCity | strPostalCode | strCountry | strComputer | strVersion | strLanguage | strMovilDevice | strModel | strOperatingSystem | strPassword | strConfirmPassword |
+| Lizeth | Ortega | linkliz96@gmail.com | January | 7 | 1996 | Spanish | Calarc&aacute; | 632001 | Colombia | Windows | 10 | Spanish | Xiaomi | Redmi 9 | Android 10 | Linkliz0321* | Linkliz0321* | (completed)" width="1366"/>
+                <img src="c1dd3199b4319cd24ef5105a51dbf0109659bd13becd2032c105d7b9ae382f4e.png" title=" Then see the welcome page to the uTest portal
+| strTextToWelcome |
+| Welcome to the world's largest community of freelance software testers! |" width="1366"/>
+                <img src="c1dd3199b4319cd24ef5105a51dbf0109659bd13becd2032c105d7b9ae382f4e.png" title=" Then answer" width="1366"/>
+                <img src="c1dd3199b4319cd24ef5105a51dbf0109659bd13becd2032c105d7b9ae382f4e.png" title=" Then see the welcome page to the uTest portal
+| strTextToWelcome |
+| Welcome to the world's largest community of freelance software testers! | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
